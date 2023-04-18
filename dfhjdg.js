@@ -6,7 +6,7 @@ function alerted(){
 	console.log(checked)
 	let t=true
   if (t){
-    $('#del').click( function () {
+    $('input:checkbox:checked').click( function () {
   var types = document.getElementsByClassName('active');
   while (types[0]) {
     types[0].remove();
