@@ -1,9 +1,4 @@
 function alerted(){
-	var checked = [];
-	$('input:checkbox:checked').each(function() {
-	checked.push($(this).val());
-	});
-	console.log(checked)
 	let t=true
   if (t){
     $('input:checkbox:checked').click( function () {
